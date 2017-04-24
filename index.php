@@ -106,7 +106,7 @@
                 I am very eager to get started on my new career as a Computer Engineer
                 and would love for anyone visiting this site to send me any advice,
                 input, or opportunities! My contact info can be found at the bottom
-                of the page. 
+                of the page.
               </p>
           </div>
       </div>
@@ -127,7 +127,7 @@
                     much from this sisterhood and don't know whatI would do without
                     them. Check out some of the awesome things that my Chapter has done!
                   </p>
-                  <a href="http://dphiepitt.tumblr.com/aboutus"
+                  <a href="http://pittdphie.tumblr.com"
                   target="_blank" class="btn btn-light">Pitt DPhiE</a>
                 </div>
               </div>
@@ -140,8 +140,7 @@
                     this year! We raise money for Children's Miracle Network and
                     it's one of the most rewarding  experiences I've had here at Pitt.
                   </p>
-                  <a href="http://events.dancemarathon.com/index.cfm?fuseaction=donorDrive.search&filter=participant&eventID=1208&searchTerm=kaitlyn+shields"
-                  target="_blank" class="btn btn-light">For The Kids!</a>
+                  <a href="https://pdm.pitt.edu/" target="_blank" class="btn btn-light">For The Kids!</a>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
@@ -154,7 +153,7 @@
                     living it up throughout my time here. Checkout my restauraunt
                     bucket-list!
                   </p>
-                  <a href="./restaurant-list.html" target="_blank" class="btn btn-light">NOM-NOM</a>
+                  <a href="./restaurant-list.php" target="_blank" class="btn btn-light">NOM-NOM</a>
                 </div>
               </div>
             </div>
@@ -275,6 +274,12 @@
                 (215)-520-7956
                 <br>
                 <a href="mailto:kes156@pitt.edu">kes156@pitt.edu</a>
+                <form method="post" name="myemailform" action="my_email_form.php">
+                  Name <br><input type="text" name="name"> <br>
+                  Email <br><input type="text" name="email"><br>
+                  Message<br><textarea name="message" ></textarea><br>
+                  <input type="submit" value="Send!">
+                </form>
               </p>
               <br>
               <ul class="list-inline">
